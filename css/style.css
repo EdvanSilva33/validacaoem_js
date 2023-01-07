@@ -102,3 +102,48 @@ body {
     text-align: center;
     display: none;
 }
+/*parte reponsiva*/
+
+@media screen and (max-width: 768px) {
+    .main .container{
+        
+        margin: 0 auto;
+        flex-direction: column-reverse;
+    }
+    .left{
+        margin-top: 35px;
+
+}
+.left h1 {
+    font-size: 60px;
+  }
+  .left h1 {
+    font-size: 50px;
+  
+}
+.rigth {
+    background-color: #252424;
+    width: 380px;}
+
+@media screen and (max-width: 425px) {
+    .main .container{
+        
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+ .left{
+    margin-top: 35px;
+ }
+ 
+ .left img{
+    width: 100%;
+    max-width: 425px;
+ }
+ rigth {
+    background-color: #252424;
+    width: 10px;
+   
+  
+  }
+}
+}
