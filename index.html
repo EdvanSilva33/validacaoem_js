@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrando HTML com JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+     <div class="logo">
+        <img src="./img/logo.png" alt="logo">
+     </div>
+    </header>
+        <main class="main">
+           <div class="container">
+            <section class="left">
+                <h1>VALIDAÇÃO DE <br> FORMULÁRIO</h1>
+                <H2>COM JavaScript</H2>
+                <img src="./img/icons.png" alt="html css JavaScript" >
+            </section>
+           
+            <section class="rigth">
+                <h3>Digite um Numero <br>em cada campo <br> pra validamos</h3>
+                <form action="" id="form">
+                  <div>
+                     <label for="campoA"> Campo A</label>
+                    <input type="number" name="campoA" id="campoA" required placeholder="Digite um numero">
+                  </div>
+                  <div>
+                     <label for="campoB"> Campo B</label>
+                    <input type="number" name="campoB" id="campoB" required placeholder="Digite um numero">
+                  </div>
+                  <p class="mensagem-valida">
+                   
+                  </p>
+
+                  <input type="submit" value="Enviar" nome="btn" class="btn" title="click para enviar">
+                  <img src="./img/base.png" alt="logo_base">
+                </form>
+            </section>
+           </div>
+        </main>
+   <script src="./js/style.js"></script>
+</body>
+</html>

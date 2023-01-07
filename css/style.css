@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Fira+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+body {
+  background-color: #161515;
+}
+.header {
+  padding: 16px;
+}
+.logo {
+  width: 100%;
+  max-width: 1124px;
+  margin: 0 auto;
+}
+.logo img {
+  width: 100px;
+}
+
+.main .container {
+  width: 100%;
+  max-width: 1124px;
+  margin: 0 auto;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  color: #fff;
+  padding: 16px;
+}
+.left h1 {
+  font-size: 60px;
+}
+.left h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  width: 300px;
+  padding: 15px;
+  background-color: #e5a228;
+}
+/**card*/
+
+.rigth {
+  background-color: #252424;
+  width: 400px;
+  border-radius: 15px;
+  padding: 10px;
+  color: rgb(111, 88, 133);
+  box-shadow: 0px 0px 15px 3px #e5a228;
+}
+
+.rigth h3 {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin: 20px 0;
+  color: #c4c3c3;
+}
+
+#form {
+  padding: 10px;
+}
+#form div {
+  margin: 15px 0;
+}
+
+#form input {
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  margin-top: 10px;
+}
+#form .btn {
+  margin-top: 50px;
+  background-color: rgb(116, 80, 150);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#form img {
+  width: 100px;
+  margin-top: 25px;
+  margin-left: 130px;
+}
+
+.mensagem-valida{
+    background-color: #e5a228;
+    color: rgb(245, 6, 6);
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
